@@ -2,6 +2,7 @@ from DAL import DAL,help_DAL
 
 def add_agent():
     prompt = help_DAL.return_prompt_add_agent("1","1","1","1","1")
+    DAL.send_query(prompt)
     print("agent added")
     return True
 

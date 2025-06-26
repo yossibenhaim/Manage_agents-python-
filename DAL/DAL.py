@@ -10,3 +10,4 @@ mycursor = myDB.cursor()
 
 def send_query(query):
     mycursor.execute(query)
+    myDB.commit()
