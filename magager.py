@@ -1,4 +1,9 @@
+from DAL import DAL,help_DAL
+
 def add_agent():
+    prompt = help_DAL.return_prompt_add_agent()
+    value = ("1","1","1","1","1")
+    DAL.send_query(prompt,value)
     print("agent added")
     return True
 
