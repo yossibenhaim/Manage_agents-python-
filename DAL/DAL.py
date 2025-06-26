@@ -8,3 +8,5 @@ myDB = mysql.connector.connect(
 )
 mycursor = myDB.cursor()
 
+def send_query(query):
+    mycursor.execute(query)
