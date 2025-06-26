@@ -8,6 +8,6 @@ myDB = mysql.connector.connect(
 )
 mycursor = myDB.cursor()
 
-def send_query(query):
-    mycursor.execute(query)
+def send_query(query,value):
+    mycursor.execute(query,value)
     myDB.commit()
