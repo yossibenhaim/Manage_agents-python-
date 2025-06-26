@@ -1,0 +1,12 @@
+def show_menu():
+    print("=" * 42)
+    print("      🦅 Eagle Eye - Agent Manager       ")
+    print("=" * 42)
+    print("\nברוך הבא למערכת ניהול הסוכנים של יחידת העילית Eagle Eye.")
+    print("בחר את הפעולה שברצונך לבצע:\n")
+    print("1. הוסף סוכן חדש")
+    print("2. הצג את כל הסוכנים")
+    print("3. עדכן סוכן לפי ID")
+    print("4. מחק סוכן לפי ID")
+    print("5. יציאה מהמערכת\n")
+    print("=" * 42)
