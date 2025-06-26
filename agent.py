@@ -12,4 +12,4 @@ class Agent:
         return f"id: {self.agent_id} code_name: {self.code_name}, real_name: {self.real_name}, location: {self.location}, missions_completed: {self.missions_completed}"
 
     def __repr__(self):
-        return f"Agent({self.code_name,self.real_name,self.status,self.location,self.missions_completed,self.agent_id})"
+        return f"({self.code_name,self.real_name,self.status,self.location,self.missions_completed})"
